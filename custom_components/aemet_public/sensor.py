@@ -170,7 +170,7 @@ class AemetSensor(CoordinatorEntity[AemetCoordinator], SensorEntity):
             url = f"https://www.aemet.es/es/eltiempo/observacion/ultimosdatos?l={runtime.station_id}"
         elif description.source == SOURCE_WARNINGS:
             suffix = "warnings"
-            name = f"AEMET warnings {runtime.warning_zone}"
+            name = f"Avisos {runtime.warning_zone}"
             url = f"https://www.aemet.es/es/eltiempo/prediccion/avisos?l={runtime.warning_zone}"
         else:
             suffix = "municipality"
