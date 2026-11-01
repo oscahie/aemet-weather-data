@@ -238,6 +238,11 @@
       "forecast_tomorrow_gust_speed": {
         "name": "Wind gust forecast tomorrow"
       }
+    },
+    "weather": {
+      "current_and_forecast": {
+        "name": "Current conditions and forecast"
+      }
     }
   }
 }

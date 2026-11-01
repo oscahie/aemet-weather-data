@@ -166,20 +166,20 @@ class AemetSensor(CoordinatorEntity[AemetCoordinator], SensorEntity):
         self._attr_unique_id = f"{entry.unique_id}_{description.key}"
         if description.source in (SOURCE_OBSERVATION, SOURCE_TODAY, SOURCE_DAILY):
             suffix = "station"
-            name = entry.data.get(CONF_STATION_NAME) or runtime.station_id
+            name = f"AEMET Observations {entry.data.get(CONF_STATION_NAME) or runtime.station_id}"
             url = f"https://www.aemet.es/es/eltiempo/observacion/ultimosdatos?l={runtime.station_id}"
         elif description.source == SOURCE_WARNINGS:
             suffix = "warnings"
-            name = f"Avisos {runtime.warning_zone}"
+            name = f"AEMET Avisos {runtime.warning_zone}"
             url = f"https://www.aemet.es/es/eltiempo/prediccion/avisos?l={runtime.warning_zone}"
         else:
             suffix = "municipality"
-            name = entry.data.get(CONF_CITY_NAME) or runtime.city_id
+            name = f"AEMET Forecast {entry.data.get(CONF_CITY_NAME) or runtime.city_id}"
             url = "https://www.aemet.es/es/eltiempo/prediccion/municipios"
         self._source_url = url
         self._attr_device_info = DeviceInfo(
             identifiers={(DOMAIN, f"{entry.unique_id}_{suffix}")},
-            name=f"AEMET {name}",
+            name=name,
             configuration_url=url,
             model="Public web data",
         )

@@ -238,6 +238,11 @@
       "forecast_tomorrow_gust_speed": {
         "name": "Racha de viento mañana"
       }
+    },
+    "weather": {
+      "current_and_forecast": {
+        "name": "Condiciones actuales y previsión"
+      }
     }
   }
 }

@@ -15,6 +15,8 @@ Custom Home Assistant integration for AEMET's public weather pages. It does not 
 
 The hourly and daily forecasts are for the municipality. They are **not** a forecast calculated for the selected observation station. The current condition shown by the `weather` entity comes from the municipal forecast; current numerical measurements use the station when a fresh reading exists, then the municipal forecast where possible.
 
+Home Assistant labels the municipality device **AEMET Forecast** and the station device **AEMET Observations**. The `weather` entity is called **Current conditions and forecast** because it combines both sources. These names do not change existing entity IDs.
+
 All entities identify their source and time. A missing value stays unavailable; zero is reported only when AEMET supplies zero. Data automatically becomes unavailable when it is too old. Each document is fetched on its own schedule, and a failure in one document does not discard healthy documents.
 
 ## Installation

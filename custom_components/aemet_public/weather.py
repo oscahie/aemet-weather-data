@@ -34,7 +34,7 @@ class AemetWeather(WeatherEntity):
     """Current station conditions when present; forecast for municipality."""
 
     _attr_has_entity_name = True
-    _attr_name = None
+    _attr_translation_key = "current_and_forecast"
     _attr_supported_features = (
         WeatherEntityFeature.FORECAST_HOURLY | WeatherEntityFeature.FORECAST_DAILY
     )
@@ -48,7 +48,7 @@ class AemetWeather(WeatherEntity):
         self._attr_unique_id = f"{entry.unique_id}_weather"
         self._attr_device_info = DeviceInfo(
             identifiers={(DOMAIN, f"{entry.unique_id}_municipality")},
-            name=f"AEMET {entry.data.get(CONF_CITY_NAME) or runtime.city_id}",
+            name=f"AEMET Forecast {entry.data.get(CONF_CITY_NAME) or runtime.city_id}",
             configuration_url="https://www.aemet.es/es/eltiempo/prediccion/municipios",
             model="Public web data",
         )
