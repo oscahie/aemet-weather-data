@@ -14,7 +14,13 @@ All entities identify their source and time. A missing value stays unavailable; 
 
 ## Installation
 
-With HACS, add this repository as a **custom repository** of type **Integration**, install it, and restart Home Assistant. Then go to **Settings → Devices & services → Add integration → AEMET Public Weather**. Enter at least a municipality ID or a station ID. The warning-zone ID is optional.
+[![Open this repository in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=oscahie&repository=aemet-weather-data&category=integration)
+
+Click the badge to open this repository in HACS. Add it as an **Integration** custom repository if prompted, install it, and restart Home Assistant. The equivalent manual repository URL is `https://github.com/oscahie/aemet-weather-data`.
+
+[![Add AEMET Public Weather to Home Assistant](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=aemet_public)
+
+Then add **AEMET Public Weather** through the badge or **Settings → Devices & services → Add integration**. Enter at least a municipality ID or a station ID. The warning-zone ID is optional.
 
 For manual installation, copy `custom_components/aemet_public` to your Home Assistant `config/custom_components/` directory, restart Home Assistant, and add the integration through the UI.
 
