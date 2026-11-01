@@ -40,7 +40,7 @@ class AemetInvalidId(AemetError):
     """A configured ID does not exist at AEMET."""
 
 
-class AemetPublicClient:
+class AemetWeatherDataClient:
     """Fetch AEMET web data without a key or browser session."""
 
     def __init__(self, session: ClientSession, zone: ZoneInfo) -> None:

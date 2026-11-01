@@ -8,9 +8,9 @@ from zoneinfo import ZoneInfo
 from unittest.mock import patch
 
 
-package = types.ModuleType("aemet_public")
-package.__path__ = [str(Path(__file__).resolve().parents[1] / "custom_components/aemet_public")]
-sys.modules.setdefault("aemet_public", package)
+package = types.ModuleType("aemet_weather_data")
+package.__path__ = [str(Path(__file__).resolve().parents[1] / "custom_components/aemet_weather_data")]
+sys.modules.setdefault("aemet_weather_data", package)
 
 try:
     import aiohttp  # noqa: F401
@@ -20,7 +20,7 @@ except ImportError:
     aiohttp.ClientSession = type("ClientSession", (), {})
     sys.modules["aiohttp"] = aiohttp
 
-from aemet_public.api import AemetError, AemetPublicClient  # noqa: E402
+from aemet_weather_data.api import AemetError, AemetWeatherDataClient  # noqa: E402
 
 
 class ChunkedContent:
@@ -59,7 +59,7 @@ class Session:
 
 class ClientTests(unittest.IsolatedAsyncioTestCase):
     async def test_reads_every_response_chunk(self) -> None:
-        client = AemetPublicClient(
+        client = AemetWeatherDataClient(
             Session((b"<root>", b"<value>1</value>", b"</root>")),
             ZoneInfo("Europe/Madrid"),
         )
@@ -69,7 +69,7 @@ class ClientTests(unittest.IsolatedAsyncioTestCase):
         )
 
     async def test_rejects_oversized_response(self) -> None:
-        client = AemetPublicClient(Session((b"abc", b"def")), ZoneInfo("Europe/Madrid"))
-        with patch("aemet_public.api.MAX_RESPONSE_BYTES", 5):
+        client = AemetWeatherDataClient(Session((b"abc", b"def")), ZoneInfo("Europe/Madrid"))
+        with patch("aemet_weather_data.api.MAX_RESPONSE_BYTES", 5):
             with self.assertRaises(AemetError):
                 await client._xml("/test.xml")

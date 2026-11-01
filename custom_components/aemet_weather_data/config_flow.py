@@ -11,7 +11,7 @@ import voluptuous as vol
 
 _LOGGER = logging.getLogger(__name__)
 
-from .api import AemetError, AemetInvalidId, AemetPublicClient
+from .api import AemetError, AemetInvalidId, AemetWeatherDataClient
 from .const import (
     CONF_CITY_ID,
     CONF_CITY_NAME,
@@ -32,7 +32,7 @@ SCHEMA = vol.Schema({
 })
 
 
-class AemetPublicConfigFlow(ConfigFlow, domain=DOMAIN):
+class AemetWeatherDataConfigFlow(ConfigFlow, domain=DOMAIN):
     """Allow a municipality, station, or both to be selected by their AEMET IDs."""
 
     VERSION = 1
@@ -62,7 +62,7 @@ class AemetPublicConfigFlow(ConfigFlow, domain=DOMAIN):
         if not city_id and not station_id:
             return normalized, {"base": "no_location"}
 
-        client = AemetPublicClient(async_get_clientsession(self.hass), ZoneInfo(time_zone))
+        client = AemetWeatherDataClient(async_get_clientsession(self.hass), ZoneInfo(time_zone))
         city_name = ""
         station_name = ""
         if city_id:

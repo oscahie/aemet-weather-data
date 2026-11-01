@@ -2,7 +2,7 @@
 
 from datetime import timedelta
 
-DOMAIN = "aemet_public"
+DOMAIN = "aemet_weather_data"
 CONF_CITY_ID = "city_id"
 CONF_STATION_ID = "station_id"
 CONF_WARNING_ZONE = "warning_zone"

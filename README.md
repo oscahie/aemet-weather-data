@@ -17,7 +17,7 @@ The hourly and daily forecasts are for the municipality. They are **not** a fore
 
 Home Assistant labels the municipality device **AEMET Forecast** and the station device **AEMET Observations**. The `weather` entity is called **Current conditions and forecast** because it combines both sources. These names do not change existing entity IDs.
 
-The integration is displayed as **AEMET Weather Data**. Its internal Home Assistant domain remains `aemet_public`, including in the integration page URL, so existing config entries and entity registry records keep working.
+The integration is displayed as **AEMET Weather Data**. Its Home Assistant domain is `aemet_weather_data`.
 
 All entities identify their source and time. A missing value stays unavailable; zero is reported only when AEMET supplies zero. Data automatically becomes unavailable when it is too old. Each document is fetched on its own schedule, and a failure in one document does not discard healthy documents.
 
@@ -27,11 +27,15 @@ All entities identify their source and time. A missing value stays unavailable; 
 
 Click the badge to open this repository in HACS. Add it as an **Integration** custom repository if prompted, install it, and restart Home Assistant. The equivalent manual repository URL is `https://github.com/oscahie/aemet-weather-data`.
 
-[![Add AEMET Weather Data to Home Assistant](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=aemet_public)
+[![Add AEMET Weather Data to Home Assistant](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=aemet_weather_data)
 
 Then add **AEMET Weather Data** through the badge or **Settings → Devices & services → Add integration**. Enter at least a municipality ID or a station ID. The warning-zone ID is optional.
 
-For manual installation, copy `custom_components/aemet_public` to your Home Assistant `config/custom_components/` directory, restart Home Assistant, and add the integration through the UI.
+For manual installation, copy `custom_components/aemet_weather_data` to your Home Assistant `config/custom_components/` directory, restart Home Assistant, and add the integration through the UI.
+
+### Upgrading from v0.1.3 or earlier
+
+Version 0.2.0 changes the Home Assistant domain from `aemet_public` to `aemet_weather_data`. Home Assistant treats these as separate integrations, so the old configuration entry cannot be migrated automatically. Back up Home Assistant, remove the old AEMET entry from **Settings → Devices & services**, update or reinstall this repository in HACS, restart, and add **AEMET Weather Data** with the same municipality, station and warning-zone IDs. Check the new entity IDs and update any dashboards, automations and helpers that use the old ones. Historical statistics remain associated with the old entity IDs unless you assign those IDs to the replacement entities.
 
 Example for Pamplona:
 

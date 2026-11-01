@@ -12,7 +12,7 @@ from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 
-from .api import AemetPublicClient
+from .api import AemetWeatherDataClient
 from .const import (
     DAILY_MAX_AGE,
     FORECAST_FETCH_MAX_AGE,
@@ -93,7 +93,7 @@ class AemetCoordinator(DataUpdateCoordinator[dict[str, SourceSnapshot]]):
 class AemetRuntime:
     """The config entry's data and coordinators."""
 
-    client: AemetPublicClient
+    client: AemetWeatherDataClient
     zone: ZoneInfo
     city_id: str
     station_id: str

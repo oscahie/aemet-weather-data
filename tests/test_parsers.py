@@ -9,11 +9,11 @@ from zoneinfo import ZoneInfo
 
 
 # The parser is standard-library-only; do not import Home Assistant in these tests.
-package = types.ModuleType("aemet_public")
-package.__path__ = [str(Path(__file__).resolve().parents[1] / "custom_components/aemet_public")]
-sys.modules.setdefault("aemet_public", package)
+package = types.ModuleType("aemet_weather_data")
+package.__path__ = [str(Path(__file__).resolve().parents[1] / "custom_components/aemet_weather_data")]
+sys.modules.setdefault("aemet_weather_data", package)
 
-from aemet_public.parsers import (  # noqa: E402
+from aemet_weather_data.parsers import (  # noqa: E402
     AemetFormatError,
     parse_daily_forecast,
     parse_daily_observations,

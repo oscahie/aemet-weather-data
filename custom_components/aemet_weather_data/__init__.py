@@ -9,7 +9,7 @@ from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 
-from .api import AemetPublicClient
+from .api import AemetWeatherDataClient
 from .const import (
     CONF_CITY_ID,
     CONF_STATION_ID,
@@ -38,7 +38,7 @@ async def async_setup(hass: HomeAssistant, config: dict) -> bool:
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up one selected station, municipality, and optional warning zone."""
     zone = ZoneInfo(entry.data.get(CONF_TIME_ZONE, DEFAULT_TIME_ZONE))
-    client = AemetPublicClient(async_get_clientsession(hass), zone)
+    client = AemetWeatherDataClient(async_get_clientsession(hass), zone)
     city_id = entry.data.get(CONF_CITY_ID, "")
     station_id = entry.data.get(CONF_STATION_ID, "")
     warning_zone = entry.data.get(CONF_WARNING_ZONE, "")
