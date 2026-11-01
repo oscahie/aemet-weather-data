@@ -46,7 +46,8 @@ def _root(xml: str | bytes) -> ET.Element:
     try:
         return ET.fromstring(xml)
     except ET.ParseError as err:
-        raise AemetFormatError("Invalid XML") from err
+        prefix = xml[:80] if isinstance(xml, bytes) else xml[:80]
+        raise AemetFormatError(f"Invalid XML ({err}); response prefix: {prefix!r}") from err
 
 
 def _text(value: str | None) -> str:
