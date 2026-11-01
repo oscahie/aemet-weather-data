@@ -59,10 +59,12 @@ class AemetPublicClient:
                     response.raise_for_status()
                     if response.url.host != "www.aemet.es":
                         raise AemetError("Unexpected redirect from AEMET")
-                    raw = await response.content.read(MAX_RESPONSE_BYTES + 1)
-                    if len(raw) > MAX_RESPONSE_BYTES:
-                        raise AemetError("AEMET response is too large")
-                    return raw
+                    raw = bytearray()
+                    async for chunk in response.content.iter_chunked(64 * 1024):
+                        raw.extend(chunk)
+                        if len(raw) > MAX_RESPONSE_BYTES:
+                            raise AemetError("AEMET response is too large")
+                    return bytes(raw)
         except (TimeoutError, ClientError) as err:
             raise AemetError(f"AEMET request failed: {type(err).__name__}") from err
 
