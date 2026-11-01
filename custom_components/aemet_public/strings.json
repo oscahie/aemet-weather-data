@@ -1,0 +1,243 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "AEMET public weather",
+        "description": "Enter at least one municipality or weather-station ID. No API key is needed.",
+        "data": {
+          "city_id": "Municipality code",
+          "station_id": "Weather-station code",
+          "warning_zone": "Warning-zone code (optional)",
+          "time_zone": "Local time zone"
+        },
+        "data_description": {
+          "city_id": "Five digits from the AEMET municipality URL, for example 31201 for Pamplona.",
+          "station_id": "Station code shown on the observations page, for example 9263D for Pamplona Airport.",
+          "warning_zone": "Six-digit Meteoalerta zone code; 743102 is Centro de Navarra.",
+          "time_zone": "Choose Atlantic/Canary for Canary Islands locations."
+        }
+      },
+      "reconfigure": {
+        "title": "Change AEMET sources",
+        "description": "Changing the station or municipality preserves entity IDs, so existing automations will use the newly selected location.",
+        "data": {
+          "city_id": "Municipality code",
+          "station_id": "Weather-station code",
+          "warning_zone": "Warning-zone code (optional)",
+          "time_zone": "Local time zone"
+        },
+        "data_description": {
+          "city_id": "Five-digit municipality code.",
+          "station_id": "Weather-station code.",
+          "warning_zone": "Six-digit Meteoalerta zone code.",
+          "time_zone": "Time zone of the location."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not read AEMET data. Try again later.",
+      "invalid_id": "AEMET did not recognize this code.",
+      "no_location": "Enter a municipality or station code.",
+      "already_configured": "This location is already configured."
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": {
+        "name": "Temperature"
+      },
+      "humidity": {
+        "name": "Humidity"
+      },
+      "pressure": {
+        "name": "Station pressure"
+      },
+      "pressure_tendency": {
+        "name": "Pressure change over 3 hours"
+      },
+      "wind_speed": {
+        "name": "Wind speed"
+      },
+      "wind_bearing": {
+        "name": "Wind bearing"
+      },
+      "gust_speed": {
+        "name": "Wind gust"
+      },
+      "gust_bearing": {
+        "name": "Gust bearing"
+      },
+      "hourly_precipitation": {
+        "name": "Precipitation in the last hour"
+      },
+      "observation_time": {
+        "name": "Observation time"
+      },
+      "today_maximum_temperature": {
+        "name": "Today maximum temperature"
+      },
+      "today_minimum_temperature": {
+        "name": "Today minimum temperature"
+      },
+      "today_maximum_wind": {
+        "name": "Today maximum wind speed"
+      },
+      "today_maximum_gust": {
+        "name": "Today maximum gust"
+      },
+      "today_precipitation": {
+        "name": "Today precipitation"
+      },
+      "last_day_date": {
+        "name": "Last completed summary date"
+      },
+      "last_day_maximum_temperature": {
+        "name": "Last daily maximum temperature"
+      },
+      "last_day_minimum_temperature": {
+        "name": "Last daily minimum temperature"
+      },
+      "last_day_mean_temperature": {
+        "name": "Last daily mean temperature"
+      },
+      "last_day_maximum_wind": {
+        "name": "Last daily maximum wind speed"
+      },
+      "last_day_maximum_gust": {
+        "name": "Last daily maximum gust"
+      },
+      "last_day_precipitation": {
+        "name": "Last daily precipitation"
+      },
+      "last_day_precipitation_00_06": {
+        "name": "Last daily precipitation 00–06"
+      },
+      "last_day_precipitation_06_12": {
+        "name": "Last daily precipitation 06–12"
+      },
+      "last_day_precipitation_12_18": {
+        "name": "Last daily precipitation 12–18"
+      },
+      "last_day_precipitation_18_24": {
+        "name": "Last daily precipitation 18–24"
+      },
+      "next_hour_time": {
+        "name": "Next forecast hour"
+      },
+      "next_hour_condition": {
+        "name": "Next hour condition"
+      },
+      "next_hour_temperature": {
+        "name": "Next hour temperature"
+      },
+      "next_hour_apparent_temperature": {
+        "name": "Next hour apparent temperature"
+      },
+      "next_hour_humidity": {
+        "name": "Next hour humidity"
+      },
+      "next_hour_precipitation": {
+        "name": "Next hour precipitation"
+      },
+      "next_hour_snow": {
+        "name": "Next hour snow"
+      },
+      "next_hour_wind_speed": {
+        "name": "Next hour wind speed"
+      },
+      "next_hour_wind_bearing": {
+        "name": "Next hour wind bearing"
+      },
+      "next_hour_gust_speed": {
+        "name": "Next hour gust speed"
+      },
+      "current_precipitation_probability": {
+        "name": "Current rain probability interval"
+      },
+      "forecast_today_condition": {
+        "name": "Today forecast condition"
+      },
+      "forecast_today_maximum_temperature": {
+        "name": "Today forecast maximum temperature"
+      },
+      "forecast_today_minimum_temperature": {
+        "name": "Today forecast minimum temperature"
+      },
+      "forecast_today_precipitation_probability": {
+        "name": "Today forecast rain probability"
+      },
+      "forecast_today_uv_index": {
+        "name": "Today forecast UV index"
+      },
+      "forecast_today_snow_line": {
+        "name": "Today forecast snow line"
+      },
+      "forecast_today_wind_speed": {
+        "name": "Today forecast wind speed"
+      },
+      "forecast_tomorrow_condition": {
+        "name": "Tomorrow forecast condition"
+      },
+      "forecast_tomorrow_maximum_temperature": {
+        "name": "Tomorrow forecast maximum temperature"
+      },
+      "forecast_tomorrow_minimum_temperature": {
+        "name": "Tomorrow forecast minimum temperature"
+      },
+      "forecast_tomorrow_precipitation_probability": {
+        "name": "Tomorrow forecast rain probability"
+      },
+      "forecast_tomorrow_uv_index": {
+        "name": "Tomorrow forecast UV index"
+      },
+      "forecast_tomorrow_snow_line": {
+        "name": "Tomorrow forecast snow line"
+      },
+      "forecast_tomorrow_wind_speed": {
+        "name": "Tomorrow forecast wind speed"
+      },
+      "warning_count": {
+        "name": "Published warnings"
+      },
+      "forecast_today_maximum_apparent_temperature": {
+        "name": "Maximum apparent temperature forecast today"
+      },
+      "forecast_today_minimum_apparent_temperature": {
+        "name": "Minimum apparent temperature forecast today"
+      },
+      "forecast_today_maximum_humidity": {
+        "name": "Maximum humidity forecast today"
+      },
+      "forecast_today_minimum_humidity": {
+        "name": "Minimum humidity forecast today"
+      },
+      "forecast_today_wind_bearing": {
+        "name": "Wind direction forecast today"
+      },
+      "forecast_today_gust_speed": {
+        "name": "Wind gust forecast today"
+      },
+      "forecast_tomorrow_maximum_apparent_temperature": {
+        "name": "Maximum apparent temperature forecast tomorrow"
+      },
+      "forecast_tomorrow_minimum_apparent_temperature": {
+        "name": "Minimum apparent temperature forecast tomorrow"
+      },
+      "forecast_tomorrow_maximum_humidity": {
+        "name": "Maximum humidity forecast tomorrow"
+      },
+      "forecast_tomorrow_minimum_humidity": {
+        "name": "Minimum humidity forecast tomorrow"
+      },
+      "forecast_tomorrow_wind_bearing": {
+        "name": "Wind direction forecast tomorrow"
+      },
+      "forecast_tomorrow_gust_speed": {
+        "name": "Wind gust forecast tomorrow"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AEMET - Avisos de fenómenos meteorológicos adversos - Centro de Navarra</title>
+    <link>https://www.aemet.es/es/eltiempo/prediccion/avisos?l=743102</link>
+    <description>Avisos de fenómenos meteorológicos adversos según el Plan Meteoalerta de la Agencia Estatal de Meteorología (AEMET) para Centro de Navarra.</description>
+    <language>es</language>
+    <copyright>https://www.aemet.es/es/nota_legal</copyright>
+    <pubDate>2026-10-31T22:50:02+00:00</pubDate>
+    <lastBuildDate>2026-10-31T22:50:02+00:00</lastBuildDate>
+    <image>
+      <url>https://www.aemet.es/imagenes/gif/logo_AEMET_web.gif</url>
+    </image>
+    <item>
+      <title>Estado completo de avisos para Centro de Navarra. No hay avisos para Centro de Navarra</title>
+      <description>Fichero tar.gz que contiene todos los avisos para Centro de Navarra de 23:50 31-10-2026 CET (UTC+1) a 23:59 03-11-2026 CET (UTC+1).</description>
+      <link>https://www.aemet.es/documentos_d/eltiempo/prediccion/avisos/cap/Z_CAP_C_LEMM_20261031225002_AFAZ743102.tar.gz</link>
+      <guid>Z_CAP_C_LEMM_20261031225002_AFAZ743102.tar.gz</guid>
+      <pubDate>2026-10-31T22:50:02+00:00</pubDate>
+    </item>
+  </channel>
+</rss>

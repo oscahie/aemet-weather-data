@@ -1,0 +1,13 @@
+{
+  "domain": "aemet_public",
+  "name": "AEMET Public Weather",
+  "codeowners": ["@oscahie"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/oscahie/aemet-public-ha",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/oscahie/aemet-public-ha/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

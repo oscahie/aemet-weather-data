@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='ISO-8859-15'?>
+<root>
+  <elaborado utc="2026-11-01T00:04:17" local="2026-11-01T01:04:17"/>
+  <estacion id_s="9263D" id_c="9263D" nombre="Pamplona, Aeropuerto" ccaa="nav" hora_ultimo_dato_disponible="2026-11-01T00:50:00">
+    <periodo utc="2026-10-31T00:00:00" local="2026-10-31T01:00:00">
+      <temperatura>7.6</temperatura>
+      <vel_viento>1</vel_viento>
+      <dir_viento>c</dir_viento>
+      <vel_racha>4</vel_racha>
+      <dir_racha>SW</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.0</presion>
+      <humedad>94.0</humedad>
+      <tendencia></tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T01:00:00" local="2026-10-31T02:00:00">
+      <temperatura>7.3</temperatura>
+      <vel_viento>3</vel_viento>
+      <dir_viento>S</dir_viento>
+      <vel_racha>8</vel_racha>
+      <dir_racha>S</dir_racha>
+      <precipitacion>4.3</precipitacion>
+      <presion>969.2</presion>
+      <humedad>95.0</humedad>
+      <tendencia>0.8</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T02:00:00" local="2026-10-31T03:00:00">
+      <temperatura>6.5</temperatura>
+      <vel_viento>4</vel_viento>
+      <dir_viento>E</dir_viento>
+      <vel_racha></vel_racha>
+      <dir_racha></dir_racha>
+      <precipitacion></precipitacion>
+      <presion>969.2</presion>
+      <humedad>95.0</humedad>
+      <tendencia>0.5</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T03:00:00" local="2026-10-31T04:00:00">
+      <temperatura>6.0</temperatura>
+      <vel_viento>6</vel_viento>
+      <dir_viento>E</dir_viento>
+      <vel_racha>8</vel_racha>
+      <dir_racha>SE</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.1</presion>
+      <humedad>96.0</humedad>
+      <tendencia>0.1</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T04:00:00" local="2026-10-31T05:00:00">
+      <temperatura>5.5</temperatura>
+      <vel_viento>0</vel_viento>
+      <dir_viento>c</dir_viento>
+      <vel_racha>5</vel_racha>
+      <dir_racha>E</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.2</presion>
+      <humedad>97.0</humedad>
+      <tendencia>0.0</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T05:00:00" local="2026-10-31T06:00:00">
+      <temperatura>6.2</temperatura>
+      <vel_viento>0</vel_viento>
+      <dir_viento>c</dir_viento>
+      <vel_racha>5</vel_racha>
+      <dir_racha>NE</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.4</presion>
+      <humedad>99.0</humedad>
+      <tendencia>0.2</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T06:00:00" local="2026-10-31T07:00:00">
+      <temperatura>6.5</temperatura>
+      <vel_viento>1</vel_viento>
+      <dir_viento>c</dir_viento>
+      <vel_racha>5</vel_racha>
+      <dir_racha>SW</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.3</presion>
+      <humedad>99.0</humedad>
+      <tendencia>0.2</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T07:00:00" local="2026-10-31T08:00:00">
+      <temperatura>7.1</temperatura>
+      <vel_viento>5</vel_viento>
+      <dir_viento>NE</dir_viento>
+      <vel_racha>8</vel_racha>
+      <dir_racha>E</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.6</presion>
+      <humedad>100.0</humedad>
+      <tendencia>0.4</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T08:00:00" local="2026-10-31T09:00:00">
+      <temperatura>7.3</temperatura>
+      <vel_viento>6</vel_viento>
+      <dir_viento>NE</dir_viento>
+      <vel_racha>9</vel_racha>
+      <dir_racha>NE</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.7</presion>
+      <humedad>100.0</humedad>
+      <tendencia>0.3</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T09:00:00" local="2026-10-31T10:00:00">
+      <temperatura>8.3</temperatura>
+      <vel_viento>1</vel_viento>
+      <dir_viento>c</dir_viento>
+      <vel_racha>11</vel_racha>
+      <dir_racha>NE</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>970.1</presion>
+      <humedad>98.0</humedad>
+      <tendencia>0.8</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T10:00:00" local="2026-10-31T11:00:00">
+      <temperatura>9.7</temperatura>
+      <vel_viento>4</vel_viento>
+      <dir_viento>W</dir_viento>
+      <vel_racha>9</vel_racha>
+      <dir_racha>NW</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>970.1</presion>
+      <humedad>96.0</humedad>
+      <tendencia>0.5</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T11:00:00" local="2026-10-31T12:00:00">
+      <temperatura>12.2</temperatura>
+      <vel_viento>2</vel_viento>
+      <dir_viento>NW</dir_viento>
+      <vel_racha>11</vel_racha>
+      <dir_racha>N</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.7</presion>
+      <humedad>78.0</humedad>
+      <tendencia>0.0</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T12:00:00" local="2026-10-31T13:00:00">
+      <temperatura>14.8</temperatura>
+      <vel_viento>3</vel_viento>
+      <dir_viento>S</dir_viento>
+      <vel_racha>9</vel_racha>
+      <dir_racha>W</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.2</presion>
+      <humedad>66.0</humedad>
+      <tendencia>-0.9</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T13:00:00" local="2026-10-31T14:00:00">
+      <temperatura>17.1</temperatura>
+      <vel_viento>2</vel_viento>
+      <dir_viento>W</dir_viento>
+      <vel_racha>9</vel_racha>
+      <dir_racha>SW</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>968.8</presion>
+      <humedad>58.0</humedad>
+      <tendencia>-1.3</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T14:00:00" local="2026-10-31T15:00:00">
+      <temperatura>18.3</temperatura>
+      <vel_viento>1</vel_viento>
+      <dir_viento>c</dir_viento>
+      <vel_racha>11</vel_racha>
+      <dir_racha>SW</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>968.5</presion>
+      <humedad>52.0</humedad>
+      <tendencia>-1.2</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T15:00:00" local="2026-10-31T16:00:00">
+      <temperatura>19.6</temperatura>
+      <vel_viento>4</vel_viento>
+      <dir_viento>SW</dir_viento>
+      <vel_racha></vel_racha>
+      <dir_racha></dir_racha>
+      <precipitacion></precipitacion>
+      <presion>968.5</presion>
+      <humedad>49.0</humedad>
+      <tendencia>-0.7</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T16:00:00" local="2026-10-31T17:00:00">
+      <temperatura>16.8</temperatura>
+      <vel_viento>16</vel_viento>
+      <dir_viento>N</dir_viento>
+      <vel_racha>22</vel_racha>
+      <dir_racha>N</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>968.6</presion>
+      <humedad>58.0</humedad>
+      <tendencia>-0.2</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T17:00:00" local="2026-10-31T18:00:00">
+      <temperatura>15.0</temperatura>
+      <vel_viento>15</vel_viento>
+      <dir_viento>N</dir_viento>
+      <vel_racha>24</vel_racha>
+      <dir_racha>N</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.1</presion>
+      <humedad>66.0</humedad>
+      <tendencia>0.6</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T18:00:00" local="2026-10-31T19:00:00">
+      <temperatura>12.6</temperatura>
+      <vel_viento>7</vel_viento>
+      <dir_viento>N</dir_viento>
+      <vel_racha>30</vel_racha>
+      <dir_racha>N</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>969.9</presion>
+      <humedad>73.0</humedad>
+      <tendencia>1.4</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T19:00:00" local="2026-10-31T20:00:00">
+      <temperatura>10.8</temperatura>
+      <vel_viento>5</vel_viento>
+      <dir_viento>W</dir_viento>
+      <vel_racha>8</vel_racha>
+      <dir_racha>SE</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>970.4</presion>
+      <humedad>80.0</humedad>
+      <tendencia>1.8</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T20:00:00" local="2026-10-31T21:00:00">
+      <temperatura>10.4</temperatura>
+      <vel_viento>11</vel_viento>
+      <dir_viento>N</dir_viento>
+      <vel_racha>17</vel_racha>
+      <dir_racha>NW</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>970.9</presion>
+      <humedad>85.0</humedad>
+      <tendencia>1.8</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T21:00:00" local="2026-10-31T22:00:00">
+      <temperatura>9.3</temperatura>
+      <vel_viento>3</vel_viento>
+      <dir_viento>NW</dir_viento>
+      <vel_racha>13</vel_racha>
+      <dir_racha>NW</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>971.3</presion>
+      <humedad>84.0</humedad>
+      <tendencia>1.4</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T22:00:00" local="2026-10-31T23:00:00">
+      <temperatura>8.3</temperatura>
+      <vel_viento>2</vel_viento>
+      <dir_viento>S</dir_viento>
+      <vel_racha>5</vel_racha>
+      <dir_racha>N</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>971.4</presion>
+      <humedad>88.0</humedad>
+      <tendencia>1.0</tendencia>
+    </periodo>
+    <periodo utc="2026-10-31T23:00:00" local="2026-11-01T00:00:00">
+      <temperatura>6.9</temperatura>
+      <vel_viento>2</vel_viento>
+      <dir_viento>NE</dir_viento>
+      <vel_racha>5</vel_racha>
+      <dir_racha>S</dir_racha>
+      <precipitacion>0.0</precipitacion>
+      <presion>971.5</presion>
+      <humedad>90.0</humedad>
+      <tendencia>0.6</tendencia>
+    </periodo>
+  </estacion>
+</root>

@@ -1,0 +1,243 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Tiempo público de AEMET",
+        "description": "Introduce al menos un código de municipio o estación meteorológica. No se necesita clave API.",
+        "data": {
+          "city_id": "Código del municipio",
+          "station_id": "Código de la estación meteorológica",
+          "warning_zone": "Código de zona de avisos (opcional)",
+          "time_zone": "Zona horaria local"
+        },
+        "data_description": {
+          "city_id": "Cinco cifras de la URL municipal de AEMET; por ejemplo, 31201 para Pamplona.",
+          "station_id": "Código de la página de observaciones; por ejemplo, 9263D para Pamplona Aeropuerto.",
+          "warning_zone": "Código de seis cifras de Meteoalerta; 743102 es Centro de Navarra.",
+          "time_zone": "Elige Atlantic/Canary para lugares de Canarias."
+        }
+      },
+      "reconfigure": {
+        "title": "Cambiar fuentes de AEMET",
+        "description": "Al cambiar la estación o el municipio se conservan los ID de entidad; las automatizaciones existentes utilizarán la nueva ubicación.",
+        "data": {
+          "city_id": "Código del municipio",
+          "station_id": "Código de la estación meteorológica",
+          "warning_zone": "Código de zona de avisos (opcional)",
+          "time_zone": "Zona horaria local"
+        },
+        "data_description": {
+          "city_id": "Código municipal de cinco cifras.",
+          "station_id": "Código de la estación meteorológica.",
+          "warning_zone": "Código de seis cifras de Meteoalerta.",
+          "time_zone": "Zona horaria de la ubicación."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "No se pudieron leer los datos de AEMET. Inténtalo más tarde.",
+      "invalid_id": "AEMET no reconoce este código.",
+      "no_location": "Introduce un código de municipio o estación.",
+      "already_configured": "Esta ubicación ya está configurada."
+    },
+    "abort": {
+      "already_configured": "Esta ubicación ya está configurada."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "temperature": {
+        "name": "Temperatura"
+      },
+      "humidity": {
+        "name": "Humedad"
+      },
+      "pressure": {
+        "name": "Presión en la estación"
+      },
+      "pressure_tendency": {
+        "name": "Variación de presión en 3 horas"
+      },
+      "wind_speed": {
+        "name": "Velocidad del viento"
+      },
+      "wind_bearing": {
+        "name": "Dirección del viento"
+      },
+      "gust_speed": {
+        "name": "Racha de viento"
+      },
+      "gust_bearing": {
+        "name": "Dirección de la racha"
+      },
+      "hourly_precipitation": {
+        "name": "Precipitación en la última hora"
+      },
+      "observation_time": {
+        "name": "Hora de observación"
+      },
+      "today_maximum_temperature": {
+        "name": "Temperatura máxima de hoy"
+      },
+      "today_minimum_temperature": {
+        "name": "Temperatura mínima de hoy"
+      },
+      "today_maximum_wind": {
+        "name": "Velocidad máxima del viento hoy"
+      },
+      "today_maximum_gust": {
+        "name": "Racha máxima de hoy"
+      },
+      "today_precipitation": {
+        "name": "Precipitación acumulada hoy"
+      },
+      "last_day_date": {
+        "name": "Fecha del último resumen diario"
+      },
+      "last_day_maximum_temperature": {
+        "name": "Temperatura máxima del último resumen diario"
+      },
+      "last_day_minimum_temperature": {
+        "name": "Temperatura mínima del último resumen diario"
+      },
+      "last_day_mean_temperature": {
+        "name": "Temperatura media del último resumen diario"
+      },
+      "last_day_maximum_wind": {
+        "name": "Velocidad máxima del último resumen diario"
+      },
+      "last_day_maximum_gust": {
+        "name": "Racha máxima del último resumen diario"
+      },
+      "last_day_precipitation": {
+        "name": "Precipitación del último resumen diario"
+      },
+      "last_day_precipitation_00_06": {
+        "name": "Precipitación 00–06 del último resumen diario"
+      },
+      "last_day_precipitation_06_12": {
+        "name": "Precipitación 06–12 del último resumen diario"
+      },
+      "last_day_precipitation_12_18": {
+        "name": "Precipitación 12–18 del último resumen diario"
+      },
+      "last_day_precipitation_18_24": {
+        "name": "Precipitación 18–24 del último resumen diario"
+      },
+      "next_hour_time": {
+        "name": "Próxima hora de previsión"
+      },
+      "next_hour_condition": {
+        "name": "Estado del cielo la próxima hora"
+      },
+      "next_hour_temperature": {
+        "name": "Temperatura prevista la próxima hora"
+      },
+      "next_hour_apparent_temperature": {
+        "name": "Sensación térmica prevista la próxima hora"
+      },
+      "next_hour_humidity": {
+        "name": "Humedad prevista la próxima hora"
+      },
+      "next_hour_precipitation": {
+        "name": "Precipitación prevista la próxima hora"
+      },
+      "next_hour_snow": {
+        "name": "Nieve prevista la próxima hora"
+      },
+      "next_hour_wind_speed": {
+        "name": "Viento previsto la próxima hora"
+      },
+      "next_hour_wind_bearing": {
+        "name": "Dirección del viento prevista la próxima hora"
+      },
+      "next_hour_gust_speed": {
+        "name": "Racha prevista la próxima hora"
+      },
+      "current_precipitation_probability": {
+        "name": "Probabilidad de lluvia del tramo actual"
+      },
+      "forecast_today_condition": {
+        "name": "Estado del cielo previsto hoy"
+      },
+      "forecast_today_maximum_temperature": {
+        "name": "Temperatura máxima prevista hoy"
+      },
+      "forecast_today_minimum_temperature": {
+        "name": "Temperatura mínima prevista hoy"
+      },
+      "forecast_today_precipitation_probability": {
+        "name": "Probabilidad de lluvia prevista hoy"
+      },
+      "forecast_today_uv_index": {
+        "name": "Índice UV previsto hoy"
+      },
+      "forecast_today_snow_line": {
+        "name": "Cota de nieve prevista hoy"
+      },
+      "forecast_today_wind_speed": {
+        "name": "Viento previsto hoy"
+      },
+      "forecast_tomorrow_condition": {
+        "name": "Estado del cielo previsto mañana"
+      },
+      "forecast_tomorrow_maximum_temperature": {
+        "name": "Temperatura máxima prevista mañana"
+      },
+      "forecast_tomorrow_minimum_temperature": {
+        "name": "Temperatura mínima prevista mañana"
+      },
+      "forecast_tomorrow_precipitation_probability": {
+        "name": "Probabilidad de lluvia prevista mañana"
+      },
+      "forecast_tomorrow_uv_index": {
+        "name": "Índice UV previsto mañana"
+      },
+      "forecast_tomorrow_snow_line": {
+        "name": "Cota de nieve prevista mañana"
+      },
+      "forecast_tomorrow_wind_speed": {
+        "name": "Viento previsto mañana"
+      },
+      "warning_count": {
+        "name": "Avisos publicados"
+      },
+      "forecast_today_maximum_apparent_temperature": {
+        "name": "Sensación térmica máxima hoy"
+      },
+      "forecast_today_minimum_apparent_temperature": {
+        "name": "Sensación térmica mínima hoy"
+      },
+      "forecast_today_maximum_humidity": {
+        "name": "Humedad máxima hoy"
+      },
+      "forecast_today_minimum_humidity": {
+        "name": "Humedad mínima hoy"
+      },
+      "forecast_today_wind_bearing": {
+        "name": "Dirección del viento hoy"
+      },
+      "forecast_today_gust_speed": {
+        "name": "Racha de viento hoy"
+      },
+      "forecast_tomorrow_maximum_apparent_temperature": {
+        "name": "Sensación térmica máxima mañana"
+      },
+      "forecast_tomorrow_minimum_apparent_temperature": {
+        "name": "Sensación térmica mínima mañana"
+      },
+      "forecast_tomorrow_maximum_humidity": {
+        "name": "Humedad máxima mañana"
+      },
+      "forecast_tomorrow_minimum_humidity": {
+        "name": "Humedad mínima mañana"
+      },
+      "forecast_tomorrow_wind_bearing": {
+        "name": "Dirección del viento mañana"
+      },
+      "forecast_tomorrow_gust_speed": {
+        "name": "Racha de viento mañana"
+      }
+    }
+  }
+}

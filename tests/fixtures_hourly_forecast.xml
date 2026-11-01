@@ -1,0 +1,566 @@
+<?xml version='1.0' encoding='ISO-8859-15'?>
+<root xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" id="31201" version="1.0" xsi:noNamespaceSchemaLocation="https://www.aemet.es/xsd/localidades_h.xsd">
+  <origen>
+    <productor>Agencia Estatal de Meteorología - AEMET. Gobierno de España</productor>
+    <web>https://www.aemet.es</web>
+    <enlace>https://www.aemet.es/es/eltiempo/prediccion/municipios/horas/pamplona-iruna-id31201</enlace>
+    <language>es</language>
+    <copyright>© AEMET. Autorizado el uso de la información y su reproducción citando a AEMET como autora de la misma.</copyright>
+    <nota_legal>https://www.aemet.es/es/nota_legal</nota_legal>
+  </origen>
+  <elaborado>2026-10-31T20:59:07</elaborado>
+  <nombre>Pamplona/IruÃ±a</nombre>
+  <provincia>Navarra</provincia>
+  <prediccion>
+    <dia fecha="2026-10-31" orto="07:38" ocaso="18:00">
+      <estado_cielo periodo="19" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="20" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="21" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="22" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="23" descripcion="Despejado">11n</estado_cielo>
+      <precipitacion periodo="19">0</precipitacion>
+      <precipitacion periodo="20">0</precipitacion>
+      <precipitacion periodo="21">0</precipitacion>
+      <precipitacion periodo="22">0</precipitacion>
+      <precipitacion periodo="23">0</precipitacion>
+      <prob_precipitacion periodo="1901">0</prob_precipitacion>
+      <prob_tormenta periodo="1901">0</prob_tormenta>
+      <nieve periodo="19">0</nieve>
+      <nieve periodo="20">0</nieve>
+      <nieve periodo="21">0</nieve>
+      <nieve periodo="22">0</nieve>
+      <nieve periodo="23">0</nieve>
+      <prob_nieve periodo="1901">0</prob_nieve>
+      <temperatura periodo="20">12</temperatura>
+      <temperatura periodo="21">11</temperatura>
+      <temperatura periodo="22">10</temperatura>
+      <temperatura periodo="23">10</temperatura>
+      <sens_termica periodo="20">12</sens_termica>
+      <sens_termica periodo="21">11</sens_termica>
+      <sens_termica periodo="22">10</sens_termica>
+      <sens_termica periodo="23">10</sens_termica>
+      <humedad_relativa periodo="20">87</humedad_relativa>
+      <humedad_relativa periodo="21">89</humedad_relativa>
+      <humedad_relativa periodo="22">91</humedad_relativa>
+      <humedad_relativa periodo="23">91</humedad_relativa>
+      <viento periodo="20">
+        <direccion>NO</direccion>
+        <velocidad>10</velocidad>
+      </viento>
+      <racha_max periodo="20">16</racha_max>
+      <viento periodo="21">
+        <direccion>NO</direccion>
+        <velocidad>9</velocidad>
+      </viento>
+      <racha_max periodo="21">14</racha_max>
+      <viento periodo="22">
+        <direccion>NO</direccion>
+        <velocidad>9</velocidad>
+      </viento>
+      <racha_max periodo="22">13</racha_max>
+      <viento periodo="23">
+        <direccion>NO</direccion>
+        <velocidad>7</velocidad>
+      </viento>
+      <racha_max periodo="23">10</racha_max>
+    </dia>
+    <dia fecha="2026-11-01" orto="07:40" ocaso="17:59">
+      <estado_cielo periodo="00" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="01" descripcion="Poco nuboso">12n</estado_cielo>
+      <estado_cielo periodo="02" descripcion="Bruma">82n</estado_cielo>
+      <estado_cielo periodo="03" descripcion="Niebla ">81n</estado_cielo>
+      <estado_cielo periodo="04" descripcion="Niebla ">81n</estado_cielo>
+      <estado_cielo periodo="05" descripcion="Niebla ">81n</estado_cielo>
+      <estado_cielo periodo="06" descripcion="Niebla ">81n</estado_cielo>
+      <estado_cielo periodo="07" descripcion="Niebla ">81n</estado_cielo>
+      <estado_cielo periodo="08" descripcion="Poco nuboso">12</estado_cielo>
+      <estado_cielo periodo="09" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="10" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="11" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="12" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="13" descripcion="Nubes altas">17</estado_cielo>
+      <estado_cielo periodo="14" descripcion="Nubes altas">17</estado_cielo>
+      <estado_cielo periodo="15" descripcion="Nubes altas">17</estado_cielo>
+      <estado_cielo periodo="16" descripcion="Nubes altas">17</estado_cielo>
+      <estado_cielo periodo="17" descripcion="Poco nuboso">12</estado_cielo>
+      <estado_cielo periodo="18" descripcion="Poco nuboso">12n</estado_cielo>
+      <estado_cielo periodo="19" descripcion="Nubes altas">17n</estado_cielo>
+      <estado_cielo periodo="20" descripcion="Poco nuboso">12n</estado_cielo>
+      <estado_cielo periodo="21" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="22" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="23" descripcion="Despejado">11n</estado_cielo>
+      <precipitacion periodo="00">0</precipitacion>
+      <precipitacion periodo="01">0</precipitacion>
+      <precipitacion periodo="02">0</precipitacion>
+      <precipitacion periodo="03">0</precipitacion>
+      <precipitacion periodo="04">0</precipitacion>
+      <precipitacion periodo="05">0</precipitacion>
+      <precipitacion periodo="06">0</precipitacion>
+      <precipitacion periodo="07">0</precipitacion>
+      <precipitacion periodo="08">0</precipitacion>
+      <precipitacion periodo="09">0</precipitacion>
+      <precipitacion periodo="10">0</precipitacion>
+      <precipitacion periodo="11">0</precipitacion>
+      <precipitacion periodo="12">0</precipitacion>
+      <precipitacion periodo="13">0</precipitacion>
+      <precipitacion periodo="14">0</precipitacion>
+      <precipitacion periodo="15">0</precipitacion>
+      <precipitacion periodo="16">0</precipitacion>
+      <precipitacion periodo="17">0</precipitacion>
+      <precipitacion periodo="18">0</precipitacion>
+      <precipitacion periodo="19">0</precipitacion>
+      <precipitacion periodo="20">0</precipitacion>
+      <precipitacion periodo="21">0</precipitacion>
+      <precipitacion periodo="22">0</precipitacion>
+      <precipitacion periodo="23">0</precipitacion>
+      <prob_precipitacion periodo="0107">0</prob_precipitacion>
+      <prob_precipitacion periodo="0713">0</prob_precipitacion>
+      <prob_precipitacion periodo="1319">0</prob_precipitacion>
+      <prob_precipitacion periodo="1901">0</prob_precipitacion>
+      <prob_tormenta periodo="0107">0</prob_tormenta>
+      <prob_tormenta periodo="0713">0</prob_tormenta>
+      <prob_tormenta periodo="1319">0</prob_tormenta>
+      <prob_tormenta periodo="1901">0</prob_tormenta>
+      <nieve periodo="00">0</nieve>
+      <nieve periodo="01">0</nieve>
+      <nieve periodo="02">0</nieve>
+      <nieve periodo="03">0</nieve>
+      <nieve periodo="04">0</nieve>
+      <nieve periodo="05">0</nieve>
+      <nieve periodo="06">0</nieve>
+      <nieve periodo="07">0</nieve>
+      <nieve periodo="08">0</nieve>
+      <nieve periodo="09">0</nieve>
+      <nieve periodo="10">0</nieve>
+      <nieve periodo="11">0</nieve>
+      <nieve periodo="12">0</nieve>
+      <nieve periodo="13">0</nieve>
+      <nieve periodo="14">0</nieve>
+      <nieve periodo="15">0</nieve>
+      <nieve periodo="16">0</nieve>
+      <nieve periodo="17">0</nieve>
+      <nieve periodo="18">0</nieve>
+      <nieve periodo="19">0</nieve>
+      <nieve periodo="20">0</nieve>
+      <nieve periodo="21">0</nieve>
+      <nieve periodo="22">0</nieve>
+      <nieve periodo="23">0</nieve>
+      <prob_nieve periodo="0107">0</prob_nieve>
+      <prob_nieve periodo="0713">0</prob_nieve>
+      <prob_nieve periodo="1319">0</prob_nieve>
+      <prob_nieve periodo="1901">0</prob_nieve>
+      <temperatura periodo="00">9</temperatura>
+      <temperatura periodo="01">9</temperatura>
+      <temperatura periodo="02">9</temperatura>
+      <temperatura periodo="03">9</temperatura>
+      <temperatura periodo="04">9</temperatura>
+      <temperatura periodo="05">9</temperatura>
+      <temperatura periodo="06">8</temperatura>
+      <temperatura periodo="07">8</temperatura>
+      <temperatura periodo="08">9</temperatura>
+      <temperatura periodo="09">9</temperatura>
+      <temperatura periodo="10">10</temperatura>
+      <temperatura periodo="11">12</temperatura>
+      <temperatura periodo="12">13</temperatura>
+      <temperatura periodo="13">14</temperatura>
+      <temperatura periodo="14">14</temperatura>
+      <temperatura periodo="15">14</temperatura>
+      <temperatura periodo="16">14</temperatura>
+      <temperatura periodo="17">13</temperatura>
+      <temperatura periodo="18">12</temperatura>
+      <temperatura periodo="19">12</temperatura>
+      <temperatura periodo="20">11</temperatura>
+      <temperatura periodo="21">10</temperatura>
+      <temperatura periodo="22">10</temperatura>
+      <temperatura periodo="23">9</temperatura>
+      <sens_termica periodo="00">9</sens_termica>
+      <sens_termica periodo="01">9</sens_termica>
+      <sens_termica periodo="02">9</sens_termica>
+      <sens_termica periodo="03">9</sens_termica>
+      <sens_termica periodo="04">9</sens_termica>
+      <sens_termica periodo="05">9</sens_termica>
+      <sens_termica periodo="06">8</sens_termica>
+      <sens_termica periodo="07">8</sens_termica>
+      <sens_termica periodo="08">9</sens_termica>
+      <sens_termica periodo="09">9</sens_termica>
+      <sens_termica periodo="10">10</sens_termica>
+      <sens_termica periodo="11">12</sens_termica>
+      <sens_termica periodo="12">13</sens_termica>
+      <sens_termica periodo="13">14</sens_termica>
+      <sens_termica periodo="14">14</sens_termica>
+      <sens_termica periodo="15">14</sens_termica>
+      <sens_termica periodo="16">14</sens_termica>
+      <sens_termica periodo="17">13</sens_termica>
+      <sens_termica periodo="18">12</sens_termica>
+      <sens_termica periodo="19">12</sens_termica>
+      <sens_termica periodo="20">11</sens_termica>
+      <sens_termica periodo="21">10</sens_termica>
+      <sens_termica periodo="22">10</sens_termica>
+      <sens_termica periodo="23">7</sens_termica>
+      <humedad_relativa periodo="00">91</humedad_relativa>
+      <humedad_relativa periodo="01">91</humedad_relativa>
+      <humedad_relativa periodo="02">90</humedad_relativa>
+      <humedad_relativa periodo="03">81</humedad_relativa>
+      <humedad_relativa periodo="04">80</humedad_relativa>
+      <humedad_relativa periodo="05">86</humedad_relativa>
+      <humedad_relativa periodo="06">91</humedad_relativa>
+      <humedad_relativa periodo="07">93</humedad_relativa>
+      <humedad_relativa periodo="08">89</humedad_relativa>
+      <humedad_relativa periodo="09">86</humedad_relativa>
+      <humedad_relativa periodo="10">86</humedad_relativa>
+      <humedad_relativa periodo="11">77</humedad_relativa>
+      <humedad_relativa periodo="12">68</humedad_relativa>
+      <humedad_relativa periodo="13">60</humedad_relativa>
+      <humedad_relativa periodo="14">59</humedad_relativa>
+      <humedad_relativa periodo="15">57</humedad_relativa>
+      <humedad_relativa periodo="16">60</humedad_relativa>
+      <humedad_relativa periodo="17">63</humedad_relativa>
+      <humedad_relativa periodo="18">67</humedad_relativa>
+      <humedad_relativa periodo="19">72</humedad_relativa>
+      <humedad_relativa periodo="20">76</humedad_relativa>
+      <humedad_relativa periodo="21">81</humedad_relativa>
+      <humedad_relativa periodo="22">85</humedad_relativa>
+      <humedad_relativa periodo="23">89</humedad_relativa>
+      <viento periodo="00">
+        <direccion>O</direccion>
+        <velocidad>6</velocidad>
+      </viento>
+      <racha_max periodo="00">9</racha_max>
+      <viento periodo="01">
+        <direccion>O</direccion>
+        <velocidad>7</velocidad>
+      </viento>
+      <racha_max periodo="01">9</racha_max>
+      <viento periodo="02">
+        <direccion>NO</direccion>
+        <velocidad>3</velocidad>
+      </viento>
+      <racha_max periodo="02">10</racha_max>
+      <viento periodo="03">
+        <direccion>SE</direccion>
+        <velocidad>7</velocidad>
+      </viento>
+      <racha_max periodo="03">10</racha_max>
+      <viento periodo="04">
+        <direccion>SE</direccion>
+        <velocidad>6</velocidad>
+      </viento>
+      <racha_max periodo="04">10</racha_max>
+      <viento periodo="05">
+        <direccion>SE</direccion>
+        <velocidad>6</velocidad>
+      </viento>
+      <racha_max periodo="05">11</racha_max>
+      <viento periodo="06">
+        <direccion>SE</direccion>
+        <velocidad>6</velocidad>
+      </viento>
+      <racha_max periodo="06">11</racha_max>
+      <viento periodo="07">
+        <direccion>SE</direccion>
+        <velocidad>4</velocidad>
+      </viento>
+      <racha_max periodo="07">7</racha_max>
+      <viento periodo="08">
+        <direccion>SO</direccion>
+        <velocidad>1</velocidad>
+      </viento>
+      <racha_max periodo="08">6</racha_max>
+      <viento periodo="09">
+        <direccion>O</direccion>
+        <velocidad>3</velocidad>
+      </viento>
+      <racha_max periodo="09">28</racha_max>
+      <viento periodo="10">
+        <direccion>N</direccion>
+        <velocidad>15</velocidad>
+      </viento>
+      <racha_max periodo="10">32</racha_max>
+      <viento periodo="11">
+        <direccion>N</direccion>
+        <velocidad>17</velocidad>
+      </viento>
+      <racha_max periodo="11">33</racha_max>
+      <viento periodo="12">
+        <direccion>N</direccion>
+        <velocidad>18</velocidad>
+      </viento>
+      <racha_max periodo="12">36</racha_max>
+      <viento periodo="13">
+        <direccion>N</direccion>
+        <velocidad>20</velocidad>
+      </viento>
+      <racha_max periodo="13">36</racha_max>
+      <viento periodo="14">
+        <direccion>N</direccion>
+        <velocidad>19</velocidad>
+      </viento>
+      <racha_max periodo="14">36</racha_max>
+      <viento periodo="15">
+        <direccion>N</direccion>
+        <velocidad>20</velocidad>
+      </viento>
+      <racha_max periodo="15">38</racha_max>
+      <viento periodo="16">
+        <direccion>N</direccion>
+        <velocidad>21</velocidad>
+      </viento>
+      <racha_max periodo="16">39</racha_max>
+      <viento periodo="17">
+        <direccion>N</direccion>
+        <velocidad>21</velocidad>
+      </viento>
+      <racha_max periodo="17">40</racha_max>
+      <viento periodo="18">
+        <direccion>N</direccion>
+        <velocidad>21</velocidad>
+      </viento>
+      <racha_max periodo="18">35</racha_max>
+      <viento periodo="19">
+        <direccion>N</direccion>
+        <velocidad>15</velocidad>
+      </viento>
+      <racha_max periodo="19">25</racha_max>
+      <viento periodo="20">
+        <direccion>N</direccion>
+        <velocidad>11</velocidad>
+      </viento>
+      <racha_max periodo="20">19</racha_max>
+      <viento periodo="21">
+        <direccion>N</direccion>
+        <velocidad>11</velocidad>
+      </viento>
+      <racha_max periodo="21">20</racha_max>
+      <viento periodo="22">
+        <direccion>N</direccion>
+        <velocidad>12</velocidad>
+      </viento>
+      <racha_max periodo="22">20</racha_max>
+      <viento periodo="23">
+        <direccion>N</direccion>
+        <velocidad>12</velocidad>
+      </viento>
+      <racha_max periodo="23">19</racha_max>
+    </dia>
+    <dia fecha="2026-11-02" orto="07:41" ocaso="17:58">
+      <estado_cielo periodo="00" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="01" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="02" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="03" descripcion="Despejado">11n</estado_cielo>
+      <estado_cielo periodo="04" descripcion="Poco nuboso">12n</estado_cielo>
+      <estado_cielo periodo="05" descripcion="Poco nuboso">12n</estado_cielo>
+      <estado_cielo periodo="06" descripcion="Poco nuboso">12n</estado_cielo>
+      <estado_cielo periodo="07" descripcion="Poco nuboso">12n</estado_cielo>
+      <estado_cielo periodo="08" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="09" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="10" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="11" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="12" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="13" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="14" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="15" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="16" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="17" descripcion="Despejado">11</estado_cielo>
+      <estado_cielo periodo="18" descripcion="Despejado">11n</estado_cielo>
+      <precipitacion periodo="00">0</precipitacion>
+      <precipitacion periodo="01">0</precipitacion>
+      <precipitacion periodo="02">0</precipitacion>
+      <precipitacion periodo="03">0</precipitacion>
+      <precipitacion periodo="04">0</precipitacion>
+      <precipitacion periodo="05">0</precipitacion>
+      <precipitacion periodo="06">0</precipitacion>
+      <precipitacion periodo="07">0</precipitacion>
+      <precipitacion periodo="08">0</precipitacion>
+      <precipitacion periodo="09">0</precipitacion>
+      <precipitacion periodo="10">0</precipitacion>
+      <precipitacion periodo="11">0</precipitacion>
+      <precipitacion periodo="12">0</precipitacion>
+      <precipitacion periodo="13">0</precipitacion>
+      <precipitacion periodo="14">0</precipitacion>
+      <precipitacion periodo="15">0</precipitacion>
+      <precipitacion periodo="16">0</precipitacion>
+      <precipitacion periodo="17">0</precipitacion>
+      <precipitacion periodo="18">0</precipitacion>
+      <prob_precipitacion periodo="0107">0</prob_precipitacion>
+      <prob_precipitacion periodo="0713">0</prob_precipitacion>
+      <prob_precipitacion periodo="1319">0</prob_precipitacion>
+      <prob_tormenta periodo="0107">0</prob_tormenta>
+      <prob_tormenta periodo="0713">0</prob_tormenta>
+      <prob_tormenta periodo="1319">0</prob_tormenta>
+      <nieve periodo="00">0</nieve>
+      <nieve periodo="01">0</nieve>
+      <nieve periodo="02">0</nieve>
+      <nieve periodo="03">0</nieve>
+      <nieve periodo="04">0</nieve>
+      <nieve periodo="05">0</nieve>
+      <nieve periodo="06">0</nieve>
+      <nieve periodo="07">0</nieve>
+      <nieve periodo="08">0</nieve>
+      <nieve periodo="09">0</nieve>
+      <nieve periodo="10">0</nieve>
+      <nieve periodo="11">0</nieve>
+      <nieve periodo="12">0</nieve>
+      <nieve periodo="13">0</nieve>
+      <nieve periodo="14">0</nieve>
+      <nieve periodo="15">0</nieve>
+      <nieve periodo="16">0</nieve>
+      <nieve periodo="17">0</nieve>
+      <nieve periodo="18">0</nieve>
+      <prob_nieve periodo="0107">0</prob_nieve>
+      <prob_nieve periodo="0713">0</prob_nieve>
+      <prob_nieve periodo="1319">0</prob_nieve>
+      <temperatura periodo="00">9</temperatura>
+      <temperatura periodo="01">8</temperatura>
+      <temperatura periodo="02">8</temperatura>
+      <temperatura periodo="03">8</temperatura>
+      <temperatura periodo="04">7</temperatura>
+      <temperatura periodo="05">7</temperatura>
+      <temperatura periodo="06">7</temperatura>
+      <temperatura periodo="07">7</temperatura>
+      <temperatura periodo="08">8</temperatura>
+      <temperatura periodo="09">8</temperatura>
+      <temperatura periodo="10">9</temperatura>
+      <temperatura periodo="11">11</temperatura>
+      <temperatura periodo="12">12</temperatura>
+      <temperatura periodo="13">14</temperatura>
+      <temperatura periodo="14">14</temperatura>
+      <temperatura periodo="15">13</temperatura>
+      <temperatura periodo="16">13</temperatura>
+      <temperatura periodo="17">12</temperatura>
+      <temperatura periodo="18">10</temperatura>
+      <sens_termica periodo="00">7</sens_termica>
+      <sens_termica periodo="01">6</sens_termica>
+      <sens_termica periodo="02">7</sens_termica>
+      <sens_termica periodo="03">7</sens_termica>
+      <sens_termica periodo="04">5</sens_termica>
+      <sens_termica periodo="05">7</sens_termica>
+      <sens_termica periodo="06">7</sens_termica>
+      <sens_termica periodo="07">5</sens_termica>
+      <sens_termica periodo="08">7</sens_termica>
+      <sens_termica periodo="09">6</sens_termica>
+      <sens_termica periodo="10">7</sens_termica>
+      <sens_termica periodo="11">11</sens_termica>
+      <sens_termica periodo="12">12</sens_termica>
+      <sens_termica periodo="13">14</sens_termica>
+      <sens_termica periodo="14">14</sens_termica>
+      <sens_termica periodo="15">13</sens_termica>
+      <sens_termica periodo="16">13</sens_termica>
+      <sens_termica periodo="17">12</sens_termica>
+      <sens_termica periodo="18">10</sens_termica>
+      <humedad_relativa periodo="00">89</humedad_relativa>
+      <humedad_relativa periodo="01">90</humedad_relativa>
+      <humedad_relativa periodo="02">90</humedad_relativa>
+      <humedad_relativa periodo="03">89</humedad_relativa>
+      <humedad_relativa periodo="04">88</humedad_relativa>
+      <humedad_relativa periodo="05">87</humedad_relativa>
+      <humedad_relativa periodo="06">88</humedad_relativa>
+      <humedad_relativa periodo="07">88</humedad_relativa>
+      <humedad_relativa periodo="08">86</humedad_relativa>
+      <humedad_relativa periodo="09">85</humedad_relativa>
+      <humedad_relativa periodo="10">81</humedad_relativa>
+      <humedad_relativa periodo="11">62</humedad_relativa>
+      <humedad_relativa periodo="12">45</humedad_relativa>
+      <humedad_relativa periodo="13">39</humedad_relativa>
+      <humedad_relativa periodo="14">35</humedad_relativa>
+      <humedad_relativa periodo="15">34</humedad_relativa>
+      <humedad_relativa periodo="16">35</humedad_relativa>
+      <humedad_relativa periodo="17">42</humedad_relativa>
+      <humedad_relativa periodo="18">52</humedad_relativa>
+      <viento periodo="00">
+        <direccion>N</direccion>
+        <velocidad>10</velocidad>
+      </viento>
+      <racha_max periodo="00">17</racha_max>
+      <viento periodo="01">
+        <direccion>NO</direccion>
+        <velocidad>9</velocidad>
+      </viento>
+      <racha_max periodo="01">14</racha_max>
+      <viento periodo="02">
+        <direccion>NO</direccion>
+        <velocidad>8</velocidad>
+      </viento>
+      <racha_max periodo="02">12</racha_max>
+      <viento periodo="03">
+        <direccion>NO</direccion>
+        <velocidad>8</velocidad>
+      </viento>
+      <racha_max periodo="03">12</racha_max>
+      <viento periodo="04">
+        <direccion>NO</direccion>
+        <velocidad>8</velocidad>
+      </viento>
+      <racha_max periodo="04">12</racha_max>
+      <viento periodo="05">
+        <direccion>NO</direccion>
+        <velocidad>7</velocidad>
+      </viento>
+      <racha_max periodo="05">11</racha_max>
+      <viento periodo="06">
+        <direccion>NO</direccion>
+        <velocidad>7</velocidad>
+      </viento>
+      <racha_max periodo="06">13</racha_max>
+      <viento periodo="07">
+        <direccion>NO</direccion>
+        <velocidad>8</velocidad>
+      </viento>
+      <racha_max periodo="07">13</racha_max>
+      <viento periodo="08">
+        <direccion>NO</direccion>
+        <velocidad>8</velocidad>
+      </viento>
+      <racha_max periodo="08">16</racha_max>
+      <viento periodo="09">
+        <direccion>NO</direccion>
+        <velocidad>9</velocidad>
+      </viento>
+      <racha_max periodo="09">25</racha_max>
+      <viento periodo="10">
+        <direccion>N</direccion>
+        <velocidad>14</velocidad>
+      </viento>
+      <racha_max periodo="10">29</racha_max>
+      <viento periodo="11">
+        <direccion>N</direccion>
+        <velocidad>16</velocidad>
+      </viento>
+      <racha_max periodo="11">32</racha_max>
+      <viento periodo="12">
+        <direccion>N</direccion>
+        <velocidad>17</velocidad>
+      </viento>
+      <racha_max periodo="12">34</racha_max>
+      <viento periodo="13">
+        <direccion>N</direccion>
+        <velocidad>18</velocidad>
+      </viento>
+      <racha_max periodo="13">36</racha_max>
+      <viento periodo="14">
+        <direccion>N</direccion>
+        <velocidad>19</velocidad>
+      </viento>
+      <racha_max periodo="14">37</racha_max>
+      <viento periodo="15">
+        <direccion>N</direccion>
+        <velocidad>20</velocidad>
+      </viento>
+      <racha_max periodo="15">37</racha_max>
+      <viento periodo="16">
+        <direccion>N</direccion>
+        <velocidad>20</velocidad>
+      </viento>
+      <racha_max periodo="16">36</racha_max>
+      <viento periodo="17">
+        <direccion>N</direccion>
+        <velocidad>17</velocidad>
+      </viento>
+      <racha_max periodo="17">32</racha_max>
+      <viento periodo="18">
+        <direccion>N</direccion>
+        <velocidad>17</velocidad>
+      </viento>
+      <racha_max periodo="18">29</racha_max>
+    </dia>
+  </prediccion>
+</root>

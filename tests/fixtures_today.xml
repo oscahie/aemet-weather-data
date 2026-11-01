@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='ISO-8859-15'?>
+<root>
+  <elaborado utc="2026-11-01T00:04:17" local="2026-11-01T01:04:17"/>
+  <estacion id_s="08085" id_c="9263D" nombre="Pamplona, Aeropuerto" ccaa="nav" hora_ultimo_dato_disponible="2026-11-01T00:50:00">
+    <vmax hora_local="2026-11-01T00:10:00" orden="8">4</vmax>
+    <racha hora_local="2026-11-01T00:20:00" orden="8">8</racha>
+    <pre_0024 orden="0">0.0</pre_0024>
+    <tmin hora_local="2026-11-01T00:10:00" orden="5">6.6</tmin>
+    <tmax hora_local="2026-11-01T00:00:00" orden="14">6.9</tmax>
+  </estacion>
+</root>
