@@ -2,7 +2,7 @@
   "config": {
     "step": {
       "user": {
-        "title": "AEMET public weather",
+        "title": "AEMET Weather Data",
         "description": "Enter at least one municipality or weather-station ID. No API key is needed.",
         "data": {
           "city_id": "Municipality code",

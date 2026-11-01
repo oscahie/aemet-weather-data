@@ -219,7 +219,7 @@ def _condition(element: ET.Element | None) -> str | None:
         return "pouring" if "fuerte" in normalized or "intensa" in normalized else "rainy"
     if "despejado" in normalized:
         return "clear-night" if (element.text or "").strip().endswith("n") else "sunny"
-    if "poco nuboso" in normalized or "intervalos nubosos" in normalized:
+    if "poco nuboso" in normalized or "intervalos nubosos" in normalized or "nubes altas" in normalized:
         return "partlycloudy"
     if "nuboso" in normalized or "cubierto" in normalized:
         return "cloudy"

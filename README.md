@@ -1,8 +1,8 @@
-# AEMET Public Weather for Home Assistant
+# AEMET Weather Data for Home Assistant
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/icon-dark.svg">
-  <img src="assets/icon-light.svg" alt="AEMET Public Weather icon" width="80">
+  <img src="assets/icon-light.svg" alt="AEMET Weather Data icon" width="80">
 </picture>
 
 Custom Home Assistant integration for AEMET's public weather pages. It does not require an AEMET OpenData API key. Configure a municipality, an observation station, or both; an optional Meteoalerta zone adds warning data.
@@ -17,6 +17,8 @@ The hourly and daily forecasts are for the municipality. They are **not** a fore
 
 Home Assistant labels the municipality device **AEMET Forecast** and the station device **AEMET Observations**. The `weather` entity is called **Current conditions and forecast** because it combines both sources. These names do not change existing entity IDs.
 
+The integration is displayed as **AEMET Weather Data**. Its internal Home Assistant domain remains `aemet_public`, including in the integration page URL, so existing config entries and entity registry records keep working.
+
 All entities identify their source and time. A missing value stays unavailable; zero is reported only when AEMET supplies zero. Data automatically becomes unavailable when it is too old. Each document is fetched on its own schedule, and a failure in one document does not discard healthy documents.
 
 ## Installation
@@ -25,9 +27,9 @@ All entities identify their source and time. A missing value stays unavailable; 
 
 Click the badge to open this repository in HACS. Add it as an **Integration** custom repository if prompted, install it, and restart Home Assistant. The equivalent manual repository URL is `https://github.com/oscahie/aemet-weather-data`.
 
-[![Add AEMET Public Weather to Home Assistant](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=aemet_public)
+[![Add AEMET Weather Data to Home Assistant](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=aemet_public)
 
-Then add **AEMET Public Weather** through the badge or **Settings → Devices & services → Add integration**. Enter at least a municipality ID or a station ID. The warning-zone ID is optional.
+Then add **AEMET Weather Data** through the badge or **Settings → Devices & services → Add integration**. Enter at least a municipality ID or a station ID. The warning-zone ID is optional.
 
 For manual installation, copy `custom_components/aemet_public` to your Home Assistant `config/custom_components/` directory, restart Home Assistant, and add the integration through the UI.
 

@@ -151,6 +151,8 @@ class SavedAemetDocumentTests(unittest.TestCase):
         self.assertEqual(past.latest.precipitation, 4.3)
         self.assertEqual(len(hourly.hours), 48)
         self.assertEqual(len(hourly.probability_windows), 8)
+        self.assertEqual(sum(hour.condition == "partlycloudy" for hour in hourly.hours), 14)
+        self.assertNotIn(None, (hour.condition for hour in hourly.hours))
         self.assertEqual(len(daily.days), 7)
         self.assertEqual(daily.days[1].minimum_humidity, 55)
         self.assertEqual(len(warnings.items), 0)
