@@ -1,5 +1,10 @@
 # AEMET Public Weather for Home Assistant
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/icon-dark.svg">
+  <img src="assets/icon-light.svg" alt="AEMET Public Weather icon" width="80">
+</picture>
+
 Custom Home Assistant integration for AEMET's public weather pages. It does not require an AEMET OpenData API key. Configure a municipality, an observation station, or both; an optional Meteoalerta zone adds warning data.
 
 ## What it provides

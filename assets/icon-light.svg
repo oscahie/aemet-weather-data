@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>Weather data: sun, cloud and readings</title>
+  <circle cx="180" cy="65" r="35" fill="#E9AD4F"/>
+  <g transform="translate(0 -14) scale(1 1.16)">
+    <path d="M61 198C37 198 20 180 20 156c0-22 17-40 39-41 9 0 17 2 24 7 13-27 34-42 61-42 27 0 46 17 50 42 5-2 10-3 15-3 20 0 35 17 35 39 0 23-18 40-41 40H61Z" fill="#173B5D"/>
+    <path d="m75 169 34-18 31 14 37-27" fill="none" stroke="#76D8C9" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#76D8C9"><circle cx="75" cy="169" r="6"/><circle cx="109" cy="151" r="6"/><circle cx="140" cy="165" r="6"/><circle cx="177" cy="138" r="6"/></g>
+  </g>
+</svg>
