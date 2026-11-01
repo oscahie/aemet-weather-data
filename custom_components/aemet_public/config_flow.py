@@ -1,5 +1,6 @@
 """UI setup and reconfiguration for AEMET public data."""
 
+import logging
 from typing import Any
 from uuid import uuid4
 from zoneinfo import ZoneInfo
@@ -7,6 +8,8 @@ from zoneinfo import ZoneInfo
 from homeassistant.config_entries import ConfigFlow, ConfigFlowResult
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 import voluptuous as vol
+
+_LOGGER = logging.getLogger(__name__)
 
 from .api import AemetError, AemetInvalidId, AemetPublicClient
 from .const import (
@@ -68,21 +71,24 @@ class AemetPublicConfigFlow(ConfigFlow, domain=DOMAIN):
                 await client.hourly_forecast(city_id)
             except AemetInvalidId:
                 errors[CONF_CITY_ID] = "invalid_id"
-            except AemetError:
+            except AemetError as err:
+                _LOGGER.warning("AEMET municipality validation failed: %s", err)
                 errors["base"] = "cannot_connect"
         if station_id:
             try:
                 station_name = (await client.observations(station_id)).name
             except AemetInvalidId:
                 errors[CONF_STATION_ID] = "invalid_id"
-            except AemetError:
+            except AemetError as err:
+                _LOGGER.warning("AEMET station validation failed: %s", err)
                 errors["base"] = "cannot_connect"
         if warning_zone:
             try:
                 await client.warnings(warning_zone)
             except AemetInvalidId:
                 errors[CONF_WARNING_ZONE] = "invalid_id"
-            except AemetError:
+            except AemetError as err:
+                _LOGGER.warning("AEMET warning-zone validation failed: %s", err)
                 errors["base"] = "cannot_connect"
         normalized[CONF_CITY_NAME] = city_name
         normalized[CONF_STATION_NAME] = station_name
